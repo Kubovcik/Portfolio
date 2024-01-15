@@ -1,8 +1,20 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 5px;
 }
 
 .container {
@@ -18,12 +30,8 @@ header {
     padding: 40px 0;
 }
 
-header h1 {
+header h1, header p {
     margin: 0;
-}
-
-header p {
-    margin: 10px 0;
 }
 
 section {
@@ -31,7 +39,7 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #fff;
 }
 
 .project {
