@@ -10,7 +10,7 @@ document.body.appendChild(renderer.domElement);
 
 // Load the 3D model
 const loader = new THREE.GLTFLoader();
-loader.load('images/insta.glb', function(gltf) {
+loader.load('images/instagram.gltf', function(gltf) {
   const logo = gltf.scene;
   scene.add(logo);
 });
