@@ -58,3 +58,9 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+#instagram-logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/instagramL.jpg');
+    background-size: cover;
+  }
